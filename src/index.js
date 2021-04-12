@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const editForm = document.getElementById("dog-form")
   editForm.addEventListener("submit", event => {
     event.preventDefault()
-    console.log(event.target)
     let edittedData = {
       name: editForm.name.value,
       breed: editForm.breed.value,
